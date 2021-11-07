@@ -1,0 +1,13 @@
+autotest cmd:
+
+./autotest <you program name> tastcase <begin num> <end num> <program args>
+
+eg:
+
+run test_case 1-12
+
+./autotest project tastcase 1 12
+
+run test_case 13-20
+
+./autotest project tastcase 1 12 "16 16"
